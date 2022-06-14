@@ -19,7 +19,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElemen
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebElement;
 
-public class CVTest {
+public class CVTestEU {
     private static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME");
     private static final String ACCESS_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
     private static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@hub-browserstack.com/wd/hub";
@@ -36,7 +36,7 @@ public class CVTest {
         caps.setCapability("browser", "Chrome");
         caps.setCapability("browser_version", "latest");
         caps.setCapability("build", "Single_Windows-time-ana");
-        caps.setCapability("browserstack.machine", "10.144.224.101");
+        caps.setCapability("browserstack.machine", "10.144.227.146");
         driver = new RemoteWebDriver(new URL(URL), caps);
     }
     @Test
