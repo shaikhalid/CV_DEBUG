@@ -84,8 +84,6 @@ public class CVTest {
     }
     @AfterTest(alwaysRun = true)
     public void teardown() throws InterruptedException {
-        driver.get("https://fast.com");
-        Thread.sleep(5000);
         driver.quit();
     } 
 }
