@@ -36,7 +36,6 @@ public class CVTest {
         caps.setCapability("browser", "Chrome");
         caps.setCapability("browser_version", "latest");
         caps.setCapability("build", "Single_Windows-time-ana");
-        caps.setCapability("browserstack.machine","10.144.163.102");
         driver = new RemoteWebDriver(new URL(URL), caps);
     }
     @Test
