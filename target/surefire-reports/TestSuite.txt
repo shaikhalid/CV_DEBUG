@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 64, Failures: 12, Errors: 0, Skipped: 51, Time elapsed: 183.288 s <<< FAILURE! - in TestSuite
+com.browserstack.test.suites.offers.OfferTest.setUp[on-prem, single, 0, public void com.browserstack.test.suites.offers.OfferTest.checkOffersInSingapore()](0)  Time elapsed: 76.349 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/shaikhalid/Documents/BrowserStack/Customer Debugging/cvlib/sel4-3/browserstack-examples-testng/src/test/resources/drivers/chromedriver
+
+com.browserstack.test.suites.e2e.OrderTest.setUp[on-prem, single, 0, public void com.browserstack.test.suites.e2e.OrderTest.placeOrder()](0)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/shaikhalid/Documents/BrowserStack/Customer Debugging/cvlib/sel4-3/browserstack-examples-testng/src/test/resources/drivers/chromedriver
+
+com.browserstack.test.suites.user.UserTest.setUp[on-prem, single, 0, public void com.browserstack.test.suites.user.UserTest.addToFavourites()](0)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/shaikhalid/Documents/BrowserStack/Customer Debugging/cvlib/sel4-3/browserstack-examples-testng/src/test/resources/drivers/chromedriver
+
+com.browserstack.test.suites.product.FilterTest.setUp[on-prem, single, 0, public void com.browserstack.test.suites.product.FilterTest.filterLowestToHighestTest()](0)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/shaikhalid/Documents/BrowserStack/Customer Debugging/cvlib/sel4-3/browserstack-examples-testng/src/test/resources/drivers/chromedriver
+
+com.browserstack.test.suites.login.LoginFailTest.setUp[on-prem, single, 0, public void com.browserstack.test.suites.login.LoginFailTest.loginFail()](0)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/shaikhalid/Documents/BrowserStack/Customer Debugging/cvlib/sel4-3/browserstack-examples-testng/src/test/resources/drivers/chromedriver
+
+com.browserstack.test.suites.login.LoginRequestedTest.setUp[on-prem, single, 0, public void com.browserstack.test.suites.login.LoginRequestedTest.navigateFavoritesLoginRequested()](0)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/shaikhalid/Documents/BrowserStack/Customer Debugging/cvlib/sel4-3/browserstack-examples-testng/src/test/resources/drivers/chromedriver
+
+com.browserstack.test.suites.login.LoginDataDrivenTest.setUp[on-prem, single, 0, public void com.browserstack.test.suites.login.LoginDataDrivenTest.validateErrors(java.lang.String,java.lang.String,java.lang.String)](0)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/shaikhalid/Documents/BrowserStack/Customer Debugging/cvlib/sel4-3/browserstack-examples-testng/src/test/resources/drivers/chromedriver
+
+com.browserstack.test.suites.login.LoginTest.setUp[on-prem, single, 0, public void com.browserstack.test.suites.login.LoginTest.loginFail()](0)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/shaikhalid/Documents/BrowserStack/Customer Debugging/cvlib/sel4-3/browserstack-examples-testng/src/test/resources/drivers/chromedriver
+
+com.browserstack.test.suites.login.LoginDataDrivenReadFromCSVTest.setUp[on-prem, single, 0, public void com.browserstack.test.suites.login.LoginDataDrivenReadFromCSVTest.validateErrors(java.lang.String,java.lang.String,java.lang.String)](0)  Time elapsed: 0.085 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/shaikhalid/Documents/BrowserStack/Customer Debugging/cvlib/sel4-3/browserstack-examples-testng/src/test/resources/drivers/chromedriver
+
+com.browserstack.test.suites.login.LoginVisualTest.setUp[on-prem, single, 0, public void com.browserstack.test.suites.login.LoginVisualTest.loginLockedUser()](0)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/shaikhalid/Documents/BrowserStack/Customer Debugging/cvlib/sel4-3/browserstack-examples-testng/src/test/resources/drivers/chromedriver
+
+com.browserstack.test.suites.login.AccessibilityTest.setUp[on-prem, single, 0, public void com.browserstack.test.suites.login.AccessibilityTest.testForAccessibility()](0)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/shaikhalid/Documents/BrowserStack/Customer Debugging/cvlib/sel4-3/browserstack-examples-testng/src/test/resources/drivers/chromedriver
+
+com.browserstack.test.suites.login.IgnoreRegionVisualTest.setUp[on-prem, single, 0, public void com.browserstack.test.suites.login.IgnoreRegionVisualTest.ignoreLogo()](0)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/shaikhalid/Documents/BrowserStack/Customer Debugging/cvlib/sel4-3/browserstack-examples-testng/src/test/resources/drivers/chromedriver
+
