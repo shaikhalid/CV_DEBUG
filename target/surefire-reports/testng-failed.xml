@@ -3,95 +3,13 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.browserstack.test.suites.login.LoginDataDrivenReadFromCSVTest">
+      <class name="com.browserstack.test.suites.e2e.CVTestEU">
         <methods>
-          <include name="validateErrors"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="testSearchBrowserStack"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.browserstack.test.suites.login.LoginDataDrivenReadFromCSVTest -->
-      <class name="com.browserstack.test.suites.login.IgnoreRegionVisualTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="ignoreLogo"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.browserstack.test.suites.login.IgnoreRegionVisualTest -->
-      <class name="com.browserstack.test.suites.login.LoginDataDrivenTest">
-        <methods>
-          <include name="validateErrors"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.browserstack.test.suites.login.LoginDataDrivenTest -->
-      <class name="com.browserstack.test.suites.user.UserTest">
-        <methods>
-          <include name="loginImagesNotLoading"/>
-          <include name="tearDown"/>
-          <include name="loginAndCheckExistingOrders"/>
-          <include name="setUp"/>
-          <include name="addToFavourites"/>
-        </methods>
-      </class> <!-- com.browserstack.test.suites.user.UserTest -->
-      <class name="com.browserstack.test.suites.product.FilterTest">
-        <methods>
-          <include name="filterLowestToHighestTest"/>
-          <include name="tearDown"/>
-          <include name="filterVendorTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.browserstack.test.suites.product.FilterTest -->
-      <class name="com.browserstack.test.suites.login.LoginFailTest">
-        <methods>
-          <include name="loginFail"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.browserstack.test.suites.login.LoginFailTest -->
-      <class name="com.browserstack.test.suites.offers.OfferTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="checkOffersInSingapore"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.browserstack.test.suites.offers.OfferTest -->
-      <class name="com.browserstack.test.suites.login.LoginTest">
-        <methods>
-          <include name="loginFail"/>
-          <include name="loginLockedUser"/>
-          <include name="tearDown"/>
-          <include name="loginSuccess"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.browserstack.test.suites.login.LoginTest -->
-      <class name="com.browserstack.test.suites.login.LoginVisualTest">
-        <methods>
-          <include name="loginLockedUser"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.browserstack.test.suites.login.LoginVisualTest -->
-      <class name="com.browserstack.test.suites.login.LoginRequestedTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="navigateFavoritesLoginRequested"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.browserstack.test.suites.login.LoginRequestedTest -->
-      <class name="com.browserstack.test.suites.e2e.OrderTest">
-        <methods>
-          <include name="placeOrder"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.browserstack.test.suites.e2e.OrderTest -->
-      <class name="com.browserstack.test.suites.login.AccessibilityTest">
-        <methods>
-          <include name="testForAccessibility"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.browserstack.test.suites.login.AccessibilityTest -->
+      </class> <!-- com.browserstack.test.suites.e2e.CVTestEU -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
