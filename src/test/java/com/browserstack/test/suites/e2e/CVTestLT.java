@@ -35,6 +35,7 @@ public class CVTestLT {
         caps.setCapability("browserName", "Chrome");
         caps.setCapability("version", "100");
         caps.setCapability("build", "Single_LT");
+        caps.setCapability("network",true);
         driver = new RemoteWebDriver(new URL(URL), caps);
     }
     @Test
