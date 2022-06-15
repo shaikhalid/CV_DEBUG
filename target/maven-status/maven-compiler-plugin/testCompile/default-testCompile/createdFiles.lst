@@ -1,11 +1,13 @@
 com/browserstack/test/suites/TestBase.class
 com/browserstack/test/suites/login/IgnoreRegionVisualTest.class
 com/browserstack/test/suites/e2e/CVTestEU.class
+com/browserstack/test/suites/e2e/CVTestTempa1.class
 com/browserstack/app/pages/LoginPage.class
 com/browserstack/test/suites/login/LoginDataDrivenTest.class
 com/browserstack/test/utils/DriverUtil.class
 com/browserstack/app/pages/CheckoutPage.class
 com/browserstack/app/utils/OsUtils.class
+com/browserstack/test/suites/e2e/CVTestTempa3.class
 com/browserstack/test/suites/login/LoginFailTest.class
 com/browserstack/test/suites/e2e/CVTest.class
 com/browserstack/test/suites/login/LoginDataDrivenReadFromCSVTest.class
@@ -23,5 +25,6 @@ com/browserstack/test/suites/offers/OfferTest.class
 com/browserstack/test/utils/BrowserstackTestStatusListener.class
 com/browserstack/test/suites/e2e/CVTestLT.class
 com/browserstack/test/utils/ScreenshotListener.class
+com/browserstack/test/suites/e2e/CVTestTempa2.class
 com/browserstack/test/suites/login/LoginTest.class
 com/browserstack/test/suites/login/LoginVisualTest.class
