@@ -39,6 +39,7 @@ public class CVTestTempa1 {
         caps.setCapability("build", "Single_Windows-time-ana");
         caps.setCapability("browserstack.networkLogs", "true");
         caps.setCapability("browserstack.machine", IP_STRING);
+        caps.setCapability("browserstack.autoWait", "0");
         driver = new RemoteWebDriver(new URL(URL), caps);
     }
     @Test
