@@ -31,7 +31,7 @@ public class CVTestTempa1 {
         caps = new DesiredCapabilities();
         caps.setCapability("project", "BrowserStack");
         caps.setCapability("build", "Demo");
-        caps.setCapability("name", "Single Test - Chrome-US "+IP_STRING);
+        caps.setCapability("name", "Single Test - Chrome-T1 "+IP_STRING);
         caps.setCapability("os", "Windows");
         caps.setCapability("os_version", "10");
         caps.setCapability("browser", "Chrome");

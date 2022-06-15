@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-15T16:38:13 IST" name="Surefire suite" finished-at="2022-06-15T16:38:55 IST" duration-ms="42177">
+  <suite started-at="2022-06-15T19:59:34 IST" name="Surefire suite" finished-at="2022-06-15T20:00:52 IST" duration-ms="78537">
     <groups>
     </groups>
-    <test started-at="2022-06-15T16:38:13 IST" name="Surefire test" finished-at="2022-06-15T16:38:55 IST" duration-ms="42177">
-      <class name="com.browserstack.test.suites.e2e.CVTestLT">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.browserstack.test.suites.e2e.CVTestLT@710b30ef]" started-at="2022-06-15T16:38:13 IST" name="setup" finished-at="2022-06-15T16:38:19 IST" duration-ms="6600" status="PASS">
+    <test started-at="2022-06-15T19:59:34 IST" name="Surefire test" finished-at="2022-06-15T20:00:52 IST" duration-ms="78537">
+      <class name="com.browserstack.test.suites.e2e.CVTestTempa1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.browserstack.test.suites.e2e.CVTestTempa1@2f6bbeb0]" started-at="2022-06-15T19:59:34 IST" name="setup" finished-at="2022-06-15T19:59:43 IST" duration-ms="9149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSearchBrowserStack()[pri:0, instance:com.browserstack.test.suites.e2e.CVTestLT@710b30ef]" started-at="2022-06-15T16:38:19 IST" name="testSearchBrowserStack" finished-at="2022-06-15T16:38:55 IST" duration-ms="35122" status="PASS">
+        <test-method signature="testSearchBrowserStack()[pri:0, instance:com.browserstack.test.suites.e2e.CVTestTempa1@2f6bbeb0]" started-at="2022-06-15T19:59:43 IST" name="testSearchBrowserStack" finished-at="2022-06-15T20:00:51 IST" duration-ms="68074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchBrowserStack -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.browserstack.test.suites.e2e.CVTestLT@710b30ef]" started-at="2022-06-15T16:38:55 IST" name="teardown" finished-at="2022-06-15T16:38:55 IST" duration-ms="322" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.browserstack.test.suites.e2e.CVTestTempa1@2f6bbeb0]" started-at="2022-06-15T20:00:51 IST" name="teardown" finished-at="2022-06-15T20:00:52 IST" duration-ms="1174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.browserstack.test.suites.e2e.CVTestLT -->
+      </class> <!-- com.browserstack.test.suites.e2e.CVTestTempa1 -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
