@@ -1,7 +1,0 @@
-#surefire_0
-#Wed Jun 15 15:00:31 IST 2022
-basedir=/Users/shaikhalid/Documents/BrowserStack/Customer Debugging/cvlib/sel4-3/CV_DEBUG
-environment=remote
-localRepository=/Users/shaikhalid/.m2/repository
-testType=single
-user.dir=/Users/shaikhalid/Documents/BrowserStack/Customer Debugging/cvlib/sel4-3/CV_DEBUG

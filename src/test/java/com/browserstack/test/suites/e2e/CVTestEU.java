@@ -25,18 +25,19 @@ public class CVTestEU {
     private static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@hub-cloud.browserstack.com/wd/hub";
     private WebDriver driver;
     DesiredCapabilities caps;
+    private static final String IP_STRING = "10.144.227.146";
     @BeforeTest(alwaysRun = true)
     public void setup() throws MalformedURLException {
         caps = new DesiredCapabilities();
         caps.setCapability("project", "BrowserStack");
         caps.setCapability("build", "Demo");
-        caps.setCapability("name", "Single Test - Chrome-EU");
+        caps.setCapability("name", "Single Test - Chrome-EU"+IP_STRING);
         caps.setCapability("os", "Windows");
         caps.setCapability("os_version", "10");
         caps.setCapability("browser", "Chrome");
         caps.setCapability("browser_version", "latest");
         caps.setCapability("build", "Single_Windows-time-ana");
-        caps.setCapability("browserstack.machine", "10.144.162.173");
+        caps.setCapability("browserstack.machine", IP_STRING);
         driver = new RemoteWebDriver(new URL(URL), caps);
     }
     @Test

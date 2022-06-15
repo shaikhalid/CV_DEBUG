@@ -23,6 +23,7 @@ public class CVTest {
     private static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME");
     private static final String ACCESS_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
     private static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@hub-scale.browserstack.com/wd/hub";
+    private static final String IP_STRING = "23.105.188.198";
     private WebDriver driver;
     DesiredCapabilities caps;
     @BeforeTest(alwaysRun = true)
@@ -30,14 +31,14 @@ public class CVTest {
         caps = new DesiredCapabilities();
         caps.setCapability("project", "BrowserStack");
         caps.setCapability("build", "Demo");
-        caps.setCapability("name", "Single Test - Chrome-US");
+        caps.setCapability("name", "Single Test - Chrome-US"+IP_STRING);
         caps.setCapability("os", "Windows");
         caps.setCapability("os_version", "10");
         caps.setCapability("browser", "Chrome");
         caps.setCapability("browser_version", "latest");
         caps.setCapability("build", "Single_Windows-time-ana");
         caps.setCapability("browserstack.networkLogs", "true");
-        caps.setCapability("browserstack.machine", "23.105.188.198");
+        caps.setCapability("browserstack.machine", IP_STRING);
         driver = new RemoteWebDriver(new URL(URL), caps);
     }
     @Test
