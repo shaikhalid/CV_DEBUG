@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.browserstack.test.suites.e2e.CVTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 42.271 s - in com.browserstack.test.suites.e2e.CVTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 65.81 s - in com.browserstack.test.suites.e2e.CVTest

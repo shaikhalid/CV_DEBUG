@@ -3,13 +3,13 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.browserstack.test.suites.e2e.CVTestEU">
+      <class name="com.browserstack.test.suites.e2e.CVTest">
         <methods>
+          <include name="setup"/>
           <include name="teardown"/>
           <include name="testSearchBrowserStack"/>
-          <include name="setup"/>
         </methods>
-      </class> <!-- com.browserstack.test.suites.e2e.CVTestEU -->
+      </class> <!-- com.browserstack.test.suites.e2e.CVTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

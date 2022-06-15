@@ -30,13 +30,14 @@ public class CVTest {
         caps = new DesiredCapabilities();
         caps.setCapability("project", "BrowserStack");
         caps.setCapability("build", "Demo");
-        caps.setCapability("name", "Single Test - Chrome");
+        caps.setCapability("name", "Single Test - Chrome-US");
         caps.setCapability("os", "Windows");
         caps.setCapability("os_version", "10");
         caps.setCapability("browser", "Chrome");
         caps.setCapability("browser_version", "latest");
         caps.setCapability("build", "Single_Windows-time-ana");
         caps.setCapability("browserstack.networkLogs", "true");
+        caps.setCapability("browserstack.machine", "23.105.188.198");
         driver = new RemoteWebDriver(new URL(URL), caps);
     }
     @Test
