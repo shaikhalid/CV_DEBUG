@@ -23,7 +23,7 @@ public class CVTest {
     private static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME");
     private static final String ACCESS_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
     private static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@hub-scale.browserstack.com/wd/hub";
-    private static final String IP_STRING = "23.105.188.198";
+    private static final String IP_STRING = "23.105.188.132";
     private WebDriver driver;
     DesiredCapabilities caps;
     @BeforeTest(alwaysRun = true)
