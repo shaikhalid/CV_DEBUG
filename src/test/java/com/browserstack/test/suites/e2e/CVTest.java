@@ -38,6 +38,7 @@ public class CVTest {
         caps.setCapability("browser_version", "latest");
         caps.setCapability("build", "Single_Windows-time-ana");
         caps.setCapability("browserstack.networkLogs", "true");
+        caps.setCapability("browserstack.video", "false");
         caps.setCapability("browserstack.machine", IP_STRING);
         driver = new RemoteWebDriver(new URL(URL), caps);
     }
