@@ -22,7 +22,7 @@ import org.openqa.selenium.WebElement;
 public class CVTestMac {
     private static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME");
     private static final String ACCESS_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
-    private static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@hub-euw.browserstack.com/wd/hub";
+    private static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@hub-scale.browserstack.com/wd/hub";
     private WebDriver driver;
     DesiredCapabilities caps;
     @BeforeTest(alwaysRun = true)

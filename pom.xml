@@ -601,5 +601,28 @@
                 </plugins>
             </build>
         </profile>
+        <profile>
+            <id>lt-cvtest-parallel</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <systemPropertyVariables>
+                                <environment>remote</environment>
+                                <testType>parallel</testType>
+                            </systemPropertyVariables>
+                            <parallel>${testng.parallel}</parallel>
+                            <threadCount>2</threadCount>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>src/test/resources/conf/runners/testng-browserstack-parallel.xml
+                                </suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
     </profiles>
 </project>
