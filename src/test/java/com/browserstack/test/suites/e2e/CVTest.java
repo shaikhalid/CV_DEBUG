@@ -12,6 +12,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.sql.Date;
+import java.sql.Time;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
@@ -36,7 +38,7 @@ public class CVTest {
         caps.setCapability("os_version", "10");
         caps.setCapability("browser", "Chrome");
         caps.setCapability("browser_version", "latest");
-        caps.setCapability("build", "Single_Windows-time-ana");
+        caps.setCapability("build", "Single_Windows-27june");
         caps.setCapability("browserstack.networkLogs", "true");
         caps.setCapability("browserstack.video", "true");
         caps.setCapability("browserstack.machine", IP_STRING);
